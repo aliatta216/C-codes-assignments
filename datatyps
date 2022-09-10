@@ -1,0 +1,16 @@
+#include <iostream>
+ 
+ using namespace std;
+ 
+int main() {
+    
+    
+    cout << "********************Hello world********************* \n";
+    cout <<"Size of int: "<<sizeof(int)<<"bytes \n";
+    cout <<"size of float: "<<sizeof(float)<<"bytes \n";
+
+cout <<"Size of char: "<<sizeof(char)<<"bytes \n";
+cout <<"Size of long int: "<<sizeof(long int)<<"bytes \n";
+cout <<"Size of double float: "<<sizeof(double)<<"bytes \n";
+
+}
