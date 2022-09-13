@@ -1,0 +1,65 @@
+#include <iostream>
+#include<conio.h>
+
+using namespace std;
+
+int main(){
+    
+    char ch;
+    
+    ch = getch();
+    
+    
+    
+    
+
+
+    return 0;
+}
+
+#include <iostream>
+#include<conio.h>
+
+using namespace std;
+
+int main()
+{
+    
+    char ch; //declaring our variable
+    
+    //cout<<"please enter your name: ";
+    
+    ch = getche();// here we call the function getche(). When we do this we do not require an enter key we 
+    // we simply press a button and it echoes onto our screen.
+    
+   // cout<<name;
+    
+    
+
+
+    return 0;
+}
+
+#include <iostream>
+#include<conio.h>
+
+using namespace std;
+
+int main()
+{
+    
+    char ch[20]; //declaring our variable
+    
+    puts("please enter your name");//we basically use puts() to get an output value. it is used instead of cout().
+    
+    //ch = getche();
+    
+   cin.get(ch, 20);//get() basically works as cin but we can use line spaces in get() while in cin we cannot
+   
+    
+    
+
+
+    return 0;
+}
+
