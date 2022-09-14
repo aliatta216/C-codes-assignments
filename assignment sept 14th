@@ -1,0 +1,45 @@
+
+#include <conio.h>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int num1, num2, num3, num4, num5, total;
+    
+    cout<<"Please answer the following questions: "<<endl;
+    
+    puts("type '1' for true and '0' for false \n");
+    
+
+    cout<<"Question1:  CPU stands for central processing unit."<<endl;
+    cin>>num1;
+    
+    cout<<"Question2:  Laptop is a mainframe computer. "<<endl;
+    cin>>num2;
+    
+    cout<<"Question3:  Gilgit is a part o china. "<<endl;
+    cin>>num3;
+    
+    cout<<"Question4:  Google is the largest search engine." <<endl;
+    cin>>num4;
+    
+    cout<<"Question5:  Pakistan is the number 1 contry in technological inovation."<<endl;
+    cin>>num5;
+    
+    
+    total = num1+num2+num3+num4+num5;
+    
+  total  =  5;
+  if (total < 5) {
+    cout << "you do not have a good score";
+  }
+  else if (total < 3){
+      cout<<"you have failed the test";
+  }
+  
+   else {
+    cout << "you have scored good";
+  }
