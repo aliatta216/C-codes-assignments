@@ -1,0 +1,28 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int var1, var2, num;
+    
+    var1 = 344;
+    var2 = 445;
+    
+    cout<<"please guess a number. \n If you guess right you win the lottery \n ";
+    cin>>num;
+    
+    if (num == 344 ){//&& var2 == 445){
+        
+        cout<<"you have guessed right.\n Congratulations! you have won the lottery\n";
+        }
+    else {
+        cout<<"you have guessed wrong \n";
+    }    
+        
+        cout<<"Thankyou for playing \n please make sure to pay your fees at the counter.";
+    
+
+    
+}
