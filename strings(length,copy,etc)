@@ -1,0 +1,22 @@
+#include<iostream>
+#include<cstring>
+
+using namespace std;
+int main(){
+    string v1, v2;
+    char name1[10] = " Jibran";
+    char name2[10] = "Nizar";
+    char name3[10];
+    
+    int len;
+    strcpy(name3, name1);
+    cout<<"string copy: "<<name3<<endl;
+    
+    v1 = strcat(name3, name1);
+    cout<<"strcat = "<<v1<<endl;
+    
+    len = strlen(name3);
+    cout<<"strlen : "<<len<<endl;
+    return 0;
+}
+
