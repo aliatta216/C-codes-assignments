@@ -1,0 +1,97 @@
+#include <iostream>
+using namespace std;
+int main() {
+    
+    double num1, num2, num3,num4, num5, obt, avg, percentage,percent;
+    int total = 500;
+    char nam[30];
+    cout<<"**********************RESULT CARD GENERATOR**********************\n\n\n";
+    
+    cout<<"** Please enter your name: ";
+    cin>>nam;
+    
+    cout<<"** Enter your marks in physics (out of hundred): ";
+    cin>>num1;
+    
+    cout<<"** Enter your marks in Mathematics(out of hundred): ";
+    cin>>num2;
+    
+    
+    cout<<"** Enter your marks in Urdu (out of hundred): ";
+    cin>>num3;
+    
+    
+    cout<<"** Enter your marks in Computer sciences (out of hundred): ";
+    cin>>num4;
+    
+    cout<<"** Enter your marks in English (out of hundred): ";
+    cin>>num5;
+
+    
+
+    obt = num1 + num2 + num3 + num4 + num5;
+     
+    cout<<"\n your total obtained marks are: \n"<<obt;
+    
+     
+    percentage = (obt/total);
+    percent = percentage *100;
+     
+    cout<<"\nyour total percentage is: \n"<<percent;
+    
+   
+    
+    
+  
+    cout<<"\n*******"<<nam<<"'s Result card for 2022"<<"**********\n";
+    cout<<"\nObtained marks: "<<obt<<"   out of :"<<total<<"   marks\n";
+    cout<<"your marks are as follows; \n";
+    cout<<"|| PHYSICS : "<<num1<<" || \n";
+    cout<<"|| MATHEMATICS : "<<num2<<" || \n";
+    cout<<"|| URDU : "<<num3<<" || \n";
+    cout<<"|| COMPUTER SCIENCES : "<<num4<<" || \n";
+    cout<<"|| ENGLISH : "<<num5<<" || \n\n";
+    
+    
+     if(percent >= 80){
+        cout<<"\n  Grade : A+";
+    }
+     
+     else if(percent >=70 && percent <= 80){
+         
+         cout<<"\n  Grade : A";
+     }
+    else if(percent >=60 && percent <= 70){
+         
+         cout<<"\n  Grade : B";
+     }
+     else if(percent >= 50 && percent <= 60){
+         
+         cout<<"\n  Grade is C";
+     }
+     else if(percent >= 40 && percent <= 50){
+         
+         cout<<"\n  Grade is D";
+     }
+     
+     else if (percent <= 40){
+         cout<<"\n STUDENT STATUS : PASS";
+     }
+     
+     else {
+        cout<<"\n FAIL HO FAIL";
+    }
+    
+    
+    cout<<"\n\n\n\n\n\n *Your examinations for this year have concluded :)  ";
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
