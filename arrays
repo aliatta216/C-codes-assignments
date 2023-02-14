@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+   int num[5];
+   
+   cout<<"please enter number: \n";
+   for (int i = 0; i< 6; i++){
+       cin>>num[i];
+       
+   }
+   cout<< "your numbers are as follows: \n";
+   
+   for(int n = 0; n < 6; ++n){
+       
+       cout<<num[n]<<endl;
+       
