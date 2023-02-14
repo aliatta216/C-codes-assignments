@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int add(int a, int b){
+    return a + b;
+}
+
+double add(double a, double b){
+    return a + b;
+}
+
+float add(float a, float b){
+    return a * b;
+}
+
+int main(){
+    
+    int x = 5, y = 7, t;
+    double a = 2.8, b = 4.5, u;
+    float i = 2.2, o = 5.2, p;
+    
+    t = add(x , y);
+    u = add(a , b);
+    p = add(i , o);
+    
+    cout<<"int sum is: "<< t <<endl;
+    cout<<"double sum is: "<< u <<endl;
+    cout<<"The Float multiplication is: "<<p<<endl;
+}
