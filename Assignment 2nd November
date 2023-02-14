@@ -1,0 +1,51 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int nas = 2, mas = 4;
+    string nam;
+    int a, b;
+    
+    cout<<"please enter your name: ";
+    cin>>nam;
+    
+    if( nas == 2 ) {
+      
+      if( mas == 4 ) {
+         
+         cout << "very nice" << endl;
+      }
+  }
+    cout<<"enter a single digit number: ";
+    cin>>a;
+    if ( a == 3){
+        cout<<"you guessed right";
+    }
+    else if(a== 4 || a==2){
+        cout<<"very near, but not correct";
+        
+    }
+    else{
+        cout<<"you guessed wrong";
+    }
+    
+    
+    
+    
+    for (int i = 0; i < 5; i++) {
+  cout << i << endl;
+}
+    
+ int i = 0;
+do {
+  cout << i << endl;
+  i++;
+}
+while (i < 5);
+    
+    
+    
+    
+    
+}
