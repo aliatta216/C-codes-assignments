@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+ int io = 1;
+ char ui[30];
+   
+do{
+    cout<< io <<endl;
+    io++;
+    
+}
+while(io<= 2);{
+ cout<<"\n\n**input any number** "<<endl;
+    cin>>ui;
+      io++;
+      cout<<"congratulations you guessed correct";
+      
+}
+}
