@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main() {
+int io = 1;
+string ui;
+   
+
+while(io<= 3){
+ cout<<"\n\n**input an alphabet** "<<endl;
+    cin>>ui;
+      io++;
+    if( ui == "a" ||  ui == "e" || ui == "i" || ui == "o" || ui == "u"){
+        cout<<"\n  **your alphabet is a vowel** ";
+    }
+    else {
+        cout<<"\n **your alphabet is a consonant** ";
+    }
+    
+   // cout<<io<<"\n";
+  
+}
+
+cout<<endl;
+
+}
