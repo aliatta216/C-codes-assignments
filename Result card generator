@@ -54,7 +54,7 @@ int main() {
     cout<<"Name: \t"<<nam<<"\n";
     cout<<"Fathers name: \t"<<fname<<"\n";
     
-    cout<<"\nObtained marks: "<<obt<<"   out of: "<<total<<"\n\n";
+    cout<<"\nObtained marks: "<<obt<<"   out of "<<total<<"\n\n";
     cout<<"Your marks are as follows; \n\n";
     cout<<"|| PHYSICS : "<<num1<<"  || \n\n";
     cout<<"|| MATHEMATICS : "<<num2<<" || \n\n";
@@ -93,6 +93,6 @@ int main() {
     }
     
     
-    cout<<"\n\n\n\n\n Your examinations for this year have concluded :)  ";
+    cout<<"\n\n\n Your examinations for this year have concluded :)  ";
     
 }
