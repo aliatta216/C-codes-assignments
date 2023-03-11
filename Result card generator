@@ -7,30 +7,28 @@ int main() {
     int total = 500;
     string nam, fname;
     cout<<"**********************RESULT CARD GENERATOR**********************\n\n";
-    
-    cout<<"** Please enter your name: ";
+
+    cout<<"** Please enter your name: "<<endl;
     getline(cin, nam);
-    // cin>>nam;
     
-    cout<<"** Enter your fathers name: ";
+    cout<<"** Enter your fathers name: "<<endl;
     getline(cin, fname);
-    // cin>>fname;
     
-    cout<<"** Enter your marks in physics (out of hundred): ";
+    cout<<"** Enter your marks in physics (out of hundred): "<<endl;
     cin>>num1;
     
-    cout<<"** Enter your marks in Mathematics(out of hundred): ";
+    cout<<"** Enter your marks in Mathematics(out of hundred): "<<endl;
     cin>>num2;
     
     
-    cout<<"** Enter your marks in Urdu (out of hundred): ";
+    cout<<"** Enter your marks in Urdu (out of hundred): "<<endl;
     cin>>num3;
     
     
-    cout<<"** Enter your marks in Computer sciences (out of hundred): ";
+    cout<<"** Enter your marks in Computer sciences (out of hundred): "<<endl;
     cin>>num4;
     
-    cout<<"** Enter your marks in English (out of hundred): ";
+    cout<<"** Enter your marks in English (out of hundred): "<<endl;
     cin>>num5;
 
     
@@ -49,12 +47,13 @@ int main() {
     
     
   
-    cout<<"\n\n\n\n*******"<<nam<<"'s Result card for 2022"<<"**********\n\n";
+    cout<<"\n\n\n\n*******"<<nam<<"'s Result card for 2023"<<"**********\n\n";
     
     cout<<"Name: \t"<<nam<<"\n";
     cout<<"Fathers name: \t"<<fname<<"\n";
     
-    cout<<"\nObtained marks: "<<obt<<"   out of "<<total<<"\n\n";
+    cout<<"\nObtained marks: "<<obt<<"   out of "<<total<<"\n\n"<<endl;
+    cout<<"Percentage: "<<percent<<endl;
     cout<<"Your marks are as follows; \n\n";
     cout<<"|| PHYSICS : "<<num1<<"  || \n\n";
     cout<<"|| MATHEMATICS : "<<num2<<" || \n\n";
